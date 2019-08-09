@@ -1,0 +1,7 @@
+c:\users\akhullar\source\repos\Server\Server\bin\Debug\Server.exe.config
+c:\users\akhullar\source\repos\Server\Server\bin\Debug\Server.exe
+c:\users\akhullar\source\repos\Server\Server\bin\Debug\Server.pdb
+c:\users\akhullar\source\repos\Server\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+c:\users\akhullar\source\repos\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+c:\users\akhullar\source\repos\Server\Server\obj\Debug\Server.exe
+c:\users\akhullar\source\repos\Server\Server\obj\Debug\Server.pdb
