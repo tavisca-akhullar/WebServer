@@ -1,4 +1,4 @@
-﻿
+﻿using System;
 using System.Net;
 using System.Threading;
 
@@ -21,6 +21,7 @@ namespace Server
         {
             AddPrefixes();
             Listener.Start();
+            Console.WriteLine("Listening..!!");
             _status = true;
             while (_status)
             {
@@ -41,6 +42,7 @@ namespace Server
             {
                 Listener.Prefixes.Add(webApp);
             }
+            Listener.Prefixes.Add("http://localhost:8080/Api/leapyear=1000/");
         }
         public void StopListening()
         {

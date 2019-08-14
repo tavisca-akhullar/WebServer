@@ -19,7 +19,7 @@ namespace Server
         public void RenderWebPage(HttpListenerContext context, string filePath)
         {
                 Stream stream = context.Response.OutputStream;
-            string contents = FileSystem.TryGetFile(filePath);
+                string contents = FileSystem.TryGetFile(filePath);
                 HttpListenerResponse response = context.Response;
                 byte[] buffer = Encoding.UTF8.GetBytes(contents);
                 response.ContentLength64 = buffer.Length; 

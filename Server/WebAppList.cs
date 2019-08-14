@@ -6,7 +6,6 @@ namespace Server
     public class WebAppList
     {
         private static  Dictionary<string, WebApp> _webAppList = new Dictionary<string, WebApp>();
-       
         public static  void AddWebApp(string name,WebApp webApp)
         {
             _webAppList.Add(name,webApp);

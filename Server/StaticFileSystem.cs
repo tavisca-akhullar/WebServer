@@ -11,7 +11,7 @@ namespace Server
         {
             RootPath = rootPath;
         }
-
+        
 
         public string TryGetFile(string filePath)
         {
